@@ -3,12 +3,16 @@ A web based goal tracker application builded on spring framework
 
 Use Spring Security to perform:
 
-  Form-Based Authorization\n
-  Role-Based Authorization\n
-  BCrypt password Encoder\n
+  Form-Based Authorization
+  
+  Role-Based Authorization
+  
+  BCrypt password Encoder
+  
 
-Use Chart.js to generate charts\n
-Use Bootstrap to do HTML formatting\n
+Use Chart.js to generate charts
+
+Use Bootstrap to do HTML formatting
 
 
 
