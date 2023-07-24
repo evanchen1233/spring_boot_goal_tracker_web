@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:th="http:/www.thymeleaf.org">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"> 
+	
+    <title>Edit Goal</title>
+    
+    <!-- Custom styles for this template -->
+	<link href="navbar-static.css" rel="stylesheet">
+	<link href="sign-in" rel="stylesheet">	
+ </head>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-primary mb-4">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/user/listGoals">PondPal</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>   
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0"></ul>
+      <form th:action="@{/logout}" method="post">
+		<button class="btn btn-primary" data-mdb-ripple-color="dark" type="submit"><i class="bi bi-box-arrow-left h2"></i></button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<body id="body">
+    <h2 align="center">Edit Goal</h2><br>
+	<div class="row g-3">
+		<div class="col-md-4"></div>
+		<div class="col-md-4">
+	    <form action="#" th:action="@{/user/updateGoalObject/{id}(id=${goal.id})}" method="post" >
+	    	<div class="form-floating">
+	 			<input type="date" id="startDate" th:field="*{goal.startDate}" class="form-control" placeholder="Enter goal start date" required/>
+	     	   <label for="startDate" class="form-label">Start Date</label>
+	    	</div>    	
+	   	  	<div class="form-floating">
+	     	  <input type="date" id="targetEndDate" th:field="*{goal.targetEndDate}" class="form-control" placeholder="Enter your target end date" required/>
+	 	       <label for="targetEndDate" class="form-label">Target End Date</label>        
+	        </div>        
+	 		<div class="form-floating">
+				<select class="form-select" id="dropDownList" th:field="*{goal.goalType.goalTypeName}" required disabled>
+		   		 <option value="">Choose...</option>
+		   		 <option th:each="option : ${options}" th:value="${option}" th:text="${option}"></option>
+				</select>	
+		 		<label for="goalType" class="form-label">Goal Type:</label>				
+			</div>		
+			<div class="form-floating">      	
+	      		<input style="height:50px" type="text" id="description" th:field="*{goal.description}" class="form-control" placeholder="Optional"/>
+	 			<label for="Description" class="form-label">Comment</label>
+	 		</div>	 		
+	        <div class="form-group">
+	       		<label for="goalStatus" class="form-label">Goal Status:</label><br>
+	            <div class="custom-control custom-radio form-check form-check-inline">
+	                <input type="radio" id="option1" name="option1" class="custom-control-input" value="Planning" th:name="option2">
+	                <label class="custom-control-label" for="option1">Planning</label>
+	            </div>
+	            <div class="custom-control custom-radio form-check form-check-inline">
+	                <input type="radio" id="option2" name="option2" class="custom-control-input" value="In Progress" th:name="option2">
+	                <label class="custom-control-label" for="option2">In Progress</label>
+	            </div>
+	            <div class="custom-control custom-radio form-check form-check-inline">
+	                <input type="radio" id="option3" name="option3" class="custom-control-input" value="Done" th:name="option2">
+	                <label class="custom-control-label" for="option3">Done</label>
+	            </div>
+	             <div class="custom-control custom-radio form-check form-check-inline">
+	                <input type="radio" id="option4" name="option4" class="custom-control-input" value="Discontinued" th:name="option2">
+	                <label class="custom-control-label" for="option4">Discontinued</label>
+	            </div>
+	        </div> <br>
+			<div class="row">
+	 			<div class="col" align="right">
+	 			<button class="btn btn-primary btn-sm" type="submit" >Update</button>
+	 			<a href="/user/listGoals" class="btn btn-primary btn-sm">Cancel</a>
+	   			</div>	
+	   		</div>
+	    </form>
+		</div>
+			<div class="col-md-4"></div>
+		</div>
+  </body>
+</html>

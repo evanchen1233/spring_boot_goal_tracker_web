@@ -1,0 +1,392 @@
+2023-07-23 13:46:40,186 INFO c.f.s.c.LoginController [http-nio-8080-exec-6] ADMIN logged in
+2023-07-23 13:46:45,174 INFO c.f.s.c.LoginController [http-nio-8080-exec-3] Trainee logged in
+2023-07-23 13:46:48,447 INFO c.f.s.c.LoginController [http-nio-8080-exec-9] Trainee logged in
+2023-07-23 13:47:02,847 INFO c.f.s.c.TraineeController [http-nio-8080-exec-5] New goal added
+2023-07-23 13:47:05,395 INFO c.f.s.c.TraineeController [http-nio-8080-exec-8] Goal deleted
+2023-07-23 13:47:07,248 INFO c.f.s.c.TraineeController [http-nio-8080-exec-1] Goal deleted
+2023-07-23 13:47:12,933 INFO c.f.s.c.TraineeController [http-nio-8080-exec-7] Goal updated
+2023-07-23 13:47:37,665 INFO c.f.s.c.LoginController [http-nio-8080-exec-3] user password changed
+2023-07-23 14:19:37,558 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 20016 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 14:19:37,561 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 14:19:37,563 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 14:19:43,753 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 6.651 seconds (process running for 8.072)
+2023-07-23 16:06:12,713 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 21068 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 16:06:12,715 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 16:06:12,716 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 16:06:18,468 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 6.283 seconds (process running for 7.546)
+2023-07-23 16:07:09,036 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 14860 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 16:07:09,038 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 16:07:09,039 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 16:07:14,671 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 6.124 seconds (process running for 7.209)
+2023-07-23 16:12:12,604 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 1960 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 16:12:12,605 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 16:12:12,606 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 16:12:18,334 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 6.247 seconds (process running for 7.313)
+2023-07-23 16:20:39,028 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 23872 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 16:20:39,033 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 16:20:39,035 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 16:20:47,127 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 8.921 seconds (process running for 11.12)
+2023-07-23 16:25:32,408 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 25540 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 16:25:32,410 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 16:25:32,411 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 16:25:37,956 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 6.04 seconds (process running for 7.133)
+2023-07-23 16:26:19,430 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 4472 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 16:26:19,432 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 16:26:19,433 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 16:26:24,966 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 6.026 seconds (process running for 7.468)
+2023-07-23 16:26:33,150 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 12656 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 16:26:33,152 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 16:26:33,153 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 16:26:38,644 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 5.951 seconds (process running for 7.09)
+2023-07-23 16:27:04,435 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 7336 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 16:27:04,437 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 16:27:04,438 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 16:27:17,579 INFO o.s.b.StartupInfoLogger [restartedMain] Starting SpringProjectApplication using Java 17.0.7 with PID 2204 (C:\Users\mz667\eclipse-workspace\spring_project\target\classes started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 16:27:17,581 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 16:27:17,582 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 16:27:25,928 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 19828 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 16:27:25,931 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 16:27:25,932 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 16:27:31,634 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 6.197 seconds (process running for 7.408)
+2023-07-23 16:40:25,333 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 27520 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 16:40:25,341 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 16:40:25,343 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 16:40:33,599 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 9.089 seconds (process running for 11.196)
+2023-07-23 16:45:20,669 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 1352 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 16:45:20,671 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 16:45:20,672 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 16:45:26,371 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 6.294 seconds (process running for 8.801)
+2023-07-23 16:58:39,882 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 15944 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 16:58:39,885 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 16:58:39,887 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 16:58:48,006 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 8.919 seconds (process running for 11.005)
+2023-07-23 17:01:54,005 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 17160 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 17:01:54,007 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 17:01:54,008 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 17:01:59,486 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 6.08 seconds (process running for 8.57)
+2023-07-23 17:02:21,019 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 23884 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 17:02:21,023 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 17:02:21,025 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 17:02:28,559 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 8.472 seconds (process running for 10.641)
+2023-07-23 17:38:16,666 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 20184 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 17:38:16,671 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 17:38:16,672 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 17:38:24,687 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 8.848 seconds (process running for 10.934)
+2023-07-23 17:46:01,851 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 21832 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 17:46:01,854 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 17:46:01,855 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 17:46:10,130 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 9.099 seconds (process running for 11.672)
+2023-07-23 17:52:39,968 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 13936 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 17:52:39,972 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 17:52:39,973 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 17:52:47,931 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 8.774 seconds (process running for 10.869)
+2023-07-23 17:59:54,765 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 4476 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 17:59:54,769 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 17:59:54,770 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 18:00:02,423 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 8.455 seconds (process running for 10.558)
+2023-07-23 18:02:41,583 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 23460 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 18:02:41,585 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 18:02:41,586 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 18:02:47,302 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 6.213 seconds (process running for 7.297)
+2023-07-23 18:04:31,183 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 2404 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 18:04:31,187 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 18:04:31,188 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 18:04:38,953 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 8.559 seconds (process running for 10.679)
+2023-07-23 18:06:50,986 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 8944 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 18:06:50,988 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 18:06:50,989 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 18:06:56,745 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 6.265 seconds (process running for 7.382)
+2023-07-23 18:10:27,238 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 17404 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 18:10:27,239 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 18:10:27,240 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 18:10:32,838 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 6.068 seconds (process running for 7.124)
+2023-07-23 18:12:15,153 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 17588 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 18:12:15,157 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 18:12:15,159 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 18:12:23,198 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 8.846 seconds (process running for 10.902)
+2023-07-23 18:13:11,710 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 376 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 18:13:11,715 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 18:13:11,716 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 18:13:19,537 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 8.626 seconds (process running for 10.731)
+2023-07-23 18:17:46,920 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 22480 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 18:17:46,922 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 18:17:46,923 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 18:17:52,580 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 6.13 seconds (process running for 7.219)
+2023-07-23 18:25:49,834 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 23232 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 18:25:49,836 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 18:25:49,837 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 18:25:55,502 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 6.138 seconds (process running for 7.235)
+2023-07-23 18:30:32,355 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 11276 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 18:30:32,358 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 18:30:32,360 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 18:30:40,029 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 8.506 seconds (process running for 10.609)
+2023-07-23 18:31:43,163 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 1004 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 18:31:43,166 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 18:31:43,168 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 18:31:50,978 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 8.616 seconds (process running for 10.795)
+2023-07-23 18:32:57,767 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 22356 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 18:32:57,771 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 18:32:57,772 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 18:33:06,205 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 9.305 seconds (process running for 11.388)
+2023-07-23 18:33:57,890 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 14976 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 18:33:57,891 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 18:33:57,892 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 18:34:03,643 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 6.226 seconds (process running for 7.417)
+2023-07-23 18:35:31,627 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 13296 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 18:35:31,630 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 18:35:31,631 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 18:35:39,540 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 8.699 seconds (process running for 10.732)
+2023-07-23 18:36:35,851 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 25584 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 18:36:35,856 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 18:36:35,858 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 18:36:43,929 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 8.841 seconds (process running for 10.918)
+2023-07-23 18:38:01,386 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 10180 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 18:38:01,388 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 18:38:01,389 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 18:38:07,131 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 6.278 seconds (process running for 8.233)
+2023-07-23 18:41:26,414 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 6216 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 18:41:26,416 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 18:41:26,417 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 18:41:32,014 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 6.1 seconds (process running for 7.418)
+2023-07-23 18:42:23,698 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 7052 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 18:42:23,700 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 18:42:23,701 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 18:42:29,314 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 6.162 seconds (process running for 7.443)
+2023-07-23 18:43:08,758 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 1036 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 18:43:08,761 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 18:43:08,762 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 18:43:16,370 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 8.44 seconds (process running for 10.565)
+2023-07-23 18:51:20,800 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 13432 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 18:51:20,801 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 18:51:20,802 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 18:51:26,476 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 6.144 seconds (process running for 7.212)
+2023-07-23 19:01:30,582 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 9812 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 19:01:30,584 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 19:01:30,584 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 19:01:36,780 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 6.734 seconds (process running for 7.925)
+2023-07-23 19:03:05,168 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 20032 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 19:03:05,170 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 19:03:05,171 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 19:03:10,673 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 6.183 seconds (process running for 8.594)
+2023-07-23 19:09:56,566 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 9460 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 19:09:56,570 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 19:09:56,571 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 19:10:04,411 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 8.595 seconds (process running for 10.737)
+2023-07-23 19:15:10,398 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 15632 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 19:15:10,401 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 19:15:10,403 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 19:15:17,954 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 8.341 seconds (process running for 10.533)
+2023-07-23 19:16:57,318 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 8524 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 19:16:57,322 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 19:16:57,324 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 19:17:04,986 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 8.466 seconds (process running for 10.636)
+2023-07-23 19:20:10,125 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 22280 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 19:20:10,128 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 19:20:10,129 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 19:20:18,441 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 9.136 seconds (process running for 11.203)
+2023-07-23 20:08:05,634 INFO o.s.b.StartupInfoLogger [restartedMain] Starting SpringProjectApplication using Java 17.0.7 with PID 11488 (C:\Users\mz667\eclipse-workspace\spring_project\target\classes started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 20:08:05,636 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 20:08:05,637 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 20:08:09,906 INFO o.s.b.StartupInfoLogger [restartedMain] Started SpringProjectApplication in 4.686 seconds (process running for 5.349)
+2023-07-23 20:08:09,909 INFO c.f.s.SpringProjectApplication [restartedMain] Application started
+2023-07-23 20:08:51,284 INFO c.f.s.c.LoginController [http-nio-8080-exec-10] ADMIN logged in
+2023-07-23 20:26:46,522 INFO o.s.b.StartupInfoLogger [main] Starting SpringProjectApplicationTests using Java 17.0.7 with PID 14244 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 20:26:46,523 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 20:26:46,524 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 20:26:52,332 INFO o.s.b.StartupInfoLogger [main] Started SpringProjectApplicationTests in 6.311 seconds (process running for 7.383)
+2023-07-23 20:51:15,306 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 16928 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 20:51:15,307 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 20:51:15,308 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 20:51:21,096 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 6.299 seconds (process running for 7.346)
+2023-07-23 20:55:00,196 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 20568 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 20:55:00,199 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 20:55:00,202 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 20:55:09,933 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 11.162 seconds (process running for 12.921)
+2023-07-23 20:55:28,853 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 14520 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 20:55:28,855 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 20:55:28,856 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 20:55:34,500 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 6.155 seconds (process running for 7.221)
+2023-07-23 20:56:07,128 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 17740 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 20:56:07,132 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 20:56:07,134 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 20:56:16,710 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 10.622 seconds (process running for 14.601)
+2023-07-23 20:59:11,017 INFO o.s.b.StartupInfoLogger [main] Starting ServiceTest using Java 17.0.7 with PID 11744 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 20:59:11,023 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 20:59:11,025 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 20:59:22,579 INFO o.s.b.StartupInfoLogger [main] Started ServiceTest in 13.428 seconds (process running for 17.633)
+2023-07-23 21:00:33,642 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 18824 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:00:33,644 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:00:33,645 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:00:39,514 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 6.417 seconds (process running for 7.618)
+2023-07-23 21:04:11,526 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 22304 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:04:11,528 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:04:11,530 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:04:20,665 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 10.328 seconds (process running for 12.24)
+2023-07-23 21:06:04,456 INFO o.s.b.StartupInfoLogger [restartedMain] Starting SpringProjectApplication using Java 17.0.7 with PID 16640 (C:\Users\mz667\eclipse-workspace\spring_project\target\classes started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:06:04,458 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:06:04,458 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:06:08,780 INFO o.s.b.StartupInfoLogger [restartedMain] Started SpringProjectApplication in 4.735 seconds (process running for 5.361)
+2023-07-23 21:06:08,783 INFO c.f.s.SpringProjectApplication [restartedMain] Application started
+2023-07-23 21:06:45,645 INFO c.f.s.c.LoginController [http-nio-8080-exec-6] ADMIN logged in
+2023-07-23 21:06:59,087 INFO o.s.b.StartupInfoLogger [restartedMain] Starting SpringProjectApplication using Java 17.0.7 with PID 16640 (C:\Users\mz667\eclipse-workspace\spring_project\target\classes started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:06:59,088 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:06:59,088 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:07:03,008 INFO o.s.b.StartupInfoLogger [restartedMain] Started SpringProjectApplication in 3.959 seconds (process running for 59.59)
+2023-07-23 21:07:03,013 INFO c.f.s.SpringProjectApplication [restartedMain] Application started
+2023-07-23 21:08:14,400 INFO o.s.b.StartupInfoLogger [restartedMain] Starting SpringProjectApplication using Java 17.0.7 with PID 16640 (C:\Users\mz667\eclipse-workspace\spring_project\target\classes started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:08:14,400 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:08:14,400 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:08:16,541 INFO o.s.b.StartupInfoLogger [restartedMain] Started SpringProjectApplication in 2.22 seconds (process running for 133.123)
+2023-07-23 21:08:16,545 INFO c.f.s.SpringProjectApplication [restartedMain] Application started
+2023-07-23 21:08:18,230 INFO o.s.b.StartupInfoLogger [restartedMain] Starting SpringProjectApplication using Java 17.0.7 with PID 16640 (C:\Users\mz667\eclipse-workspace\spring_project\target\classes started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:08:18,231 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:08:18,232 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:08:19,482 INFO o.s.b.StartupInfoLogger [restartedMain] Started SpringProjectApplication in 1.301 seconds (process running for 136.063)
+2023-07-23 21:08:19,484 INFO c.f.s.SpringProjectApplication [restartedMain] Application started
+2023-07-23 21:09:06,460 INFO c.f.s.c.LoginController [http-nio-8080-exec-4] ADMIN logged in
+2023-07-23 21:09:10,472 INFO c.f.s.c.LoginController [http-nio-8080-exec-10] ADMIN logged in
+2023-07-23 21:09:21,999 INFO c.f.s.c.LoginController [http-nio-8080-exec-6] user password changed
+2023-07-23 21:09:30,813 INFO c.f.s.c.LoginController [http-nio-8080-exec-10] Trainee logged in
+2023-07-23 21:09:34,903 INFO c.f.s.c.LoginController [http-nio-8080-exec-6] Trainee logged in
+2023-07-23 21:09:39,651 INFO c.f.s.c.LoginController [http-nio-8080-exec-2] Trainee logged in
+2023-07-23 21:09:47,571 INFO c.f.s.c.LoginController [http-nio-8080-exec-9] user password changed
+2023-07-23 21:10:34,789 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 16460 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:10:34,793 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:10:34,795 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:10:42,820 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 8.981 seconds (process running for 11.309)
+2023-07-23 21:15:52,691 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 13296 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:15:52,693 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:15:52,694 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:15:58,320 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 6.246 seconds (process running for 8.382)
+2023-07-23 21:23:17,957 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 17504 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:23:17,960 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:23:17,962 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:23:26,628 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 9.578 seconds (process running for 11.342)
+2023-07-23 21:24:27,644 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 26728 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:24:27,646 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:24:27,647 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:24:33,302 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 6.246 seconds (process running for 8.105)
+2023-07-23 21:26:18,381 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 20876 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:26:18,385 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:26:18,388 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:26:26,201 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 8.655 seconds (process running for 13.64)
+2023-07-23 21:29:11,804 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 18172 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:29:11,808 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:29:11,810 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:29:19,758 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 8.833 seconds (process running for 11.676)
+2023-07-23 21:31:33,210 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 7980 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:31:33,212 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:31:33,213 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:31:39,355 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 6.777 seconds (process running for 9.091)
+2023-07-23 21:32:59,209 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 17240 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:32:59,211 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:32:59,212 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:33:05,267 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 6.541 seconds (process running for 8.562)
+2023-07-23 21:33:44,031 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 12360 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:33:44,033 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:33:44,034 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:33:49,644 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 6.238 seconds (process running for 8.242)
+2023-07-23 21:34:16,819 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 9352 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:34:16,823 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:34:16,825 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:34:24,709 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 8.705 seconds (process running for 12.079)
+2023-07-23 21:38:59,090 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 21764 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:38:59,092 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:38:59,094 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:39:04,912 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 6.822 seconds (process running for 9.734)
+2023-07-23 21:40:46,994 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 15568 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:40:46,996 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:40:46,997 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:40:52,783 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 6.354 seconds (process running for 7.412)
+2023-07-23 21:41:54,799 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 1104 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:41:54,801 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:41:54,803 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:42:00,499 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 6.941 seconds (process running for 9.368)
+2023-07-23 21:43:40,931 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 21908 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:43:40,933 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:43:40,934 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:43:46,626 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 6.192 seconds (process running for 7.291)
+2023-07-23 21:44:44,918 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 4872 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:44:44,922 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:44:44,924 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:44:53,015 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 8.862 seconds (process running for 12.979)
+2023-07-23 21:45:14,671 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 11444 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:45:14,675 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:45:14,677 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:45:22,545 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 8.692 seconds (process running for 10.742)
+2023-07-23 21:47:05,793 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 6480 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:47:05,795 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:47:05,796 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:47:11,642 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 6.5 seconds (process running for 8.6)
+2023-07-23 21:49:12,156 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 15808 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:49:12,160 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:49:12,162 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:49:20,118 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 8.802 seconds (process running for 12.167)
+2023-07-23 21:49:54,706 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 2260 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:49:54,707 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:49:54,708 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:50:00,396 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 6.248 seconds (process running for 8.759)
+2023-07-23 21:50:52,195 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 20220 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:50:52,197 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:50:52,199 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:50:59,150 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 7.725 seconds (process running for 10.472)
+2023-07-23 21:52:53,136 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 10156 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:52:53,137 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:52:53,138 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:52:58,980 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 6.337 seconds (process running for 8.246)
+2023-07-23 21:53:41,102 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 24756 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:53:41,104 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:53:41,104 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:53:46,653 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 6.009 seconds (process running for 7.979)
+2023-07-23 21:55:21,104 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 6476 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:55:21,107 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:55:21,109 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:55:27,312 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 7.245 seconds (process running for 9.355)
+2023-07-23 21:55:50,437 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 23324 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:55:50,442 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:55:50,443 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:55:58,321 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 8.667 seconds (process running for 10.743)
+2023-07-23 21:57:02,064 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 13472 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:57:02,066 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:57:02,068 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:57:08,345 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 7.354 seconds (process running for 10.153)
+2023-07-23 21:59:33,761 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 16664 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 21:59:33,764 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 21:59:33,766 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 21:59:44,141 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 11.496 seconds (process running for 16.591)
+2023-07-23 22:01:01,003 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 12436 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 22:01:01,005 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 22:01:01,006 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 22:01:06,554 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 6.03 seconds (process running for 7.112)
+2023-07-23 22:02:58,833 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 4852 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 22:02:58,835 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 22:02:58,836 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 22:03:04,891 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 6.581 seconds (process running for 8.48)
+2023-07-23 22:05:58,994 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 22316 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 22:05:58,997 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 22:05:58,999 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 22:06:07,158 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 9.062 seconds (process running for 11.551)
+2023-07-23 22:06:49,116 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 19308 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 22:06:49,118 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 22:06:49,119 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 22:06:54,865 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 6.409 seconds (process running for 9.662)
+2023-07-23 22:07:41,879 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 26564 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 22:07:41,881 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 22:07:41,882 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 22:07:47,675 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 6.278 seconds (process running for 7.613)
+2023-07-23 22:08:36,857 INFO o.s.b.StartupInfoLogger [main] Starting ServiceTest using Java 17.0.7 with PID 1804 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 22:08:36,859 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 22:08:36,860 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 22:08:42,568 INFO o.s.b.StartupInfoLogger [main] Started ServiceTest in 6.185 seconds (process running for 7.27)
+2023-07-23 22:09:37,697 INFO o.s.b.StartupInfoLogger [main] Starting ServiceTest using Java 17.0.7 with PID 25100 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 22:09:37,699 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 22:09:37,700 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 22:09:43,465 INFO o.s.b.StartupInfoLogger [main] Started ServiceTest in 6.264 seconds (process running for 7.521)
+2023-07-23 22:10:03,970 INFO o.s.b.StartupInfoLogger [main] Starting ServiceTest using Java 17.0.7 with PID 15548 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 22:10:03,974 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 22:10:03,976 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 22:10:11,810 INFO o.s.b.StartupInfoLogger [main] Started ServiceTest in 8.785 seconds (process running for 11.063)
+2023-07-23 22:10:39,132 INFO o.s.b.StartupInfoLogger [main] Starting ServiceTest using Java 17.0.7 with PID 21460 (started by mz667 in C:\Users\mz667\eclipse-workspace\spring_project)
+2023-07-23 22:10:39,136 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-23 22:10:39,138 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-23 22:10:47,551 INFO o.s.b.StartupInfoLogger [main] Started ServiceTest in 9.212 seconds (process running for 11.469)

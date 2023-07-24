@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:th="http:/www.thymeleaf.org">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"> 
+	   
+    <title>Overview</title>
+    <!-- Custom styles for this template -->
+	<link href="navbar-static.css" rel="stylesheet">
+</head>
+
+<script type="text/javascript">
+    function clearSearch() {
+        window.location = "[[@{/user/listGoals}]]";
+    }
+</script>
+
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark bg-primary mb-4">
+	  <div class="container-fluid">  
+	    <a class="navbar-brand" href="/user/listGoals">PondPal</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>   
+	    <div class="collapse navbar-collapse" id="navbarCollapse">
+	      <ul class="navbar-nav me-auto mb-2 mb-md-0"></ul>
+	       <h6 class="text-white pt-3"><span sec:authentication="principal.fullName"></span></h6>
+	       <a th:href="@{/changePassword}" class="btn btn-primary btn-sm "><i class="bi bi-person-lines-fill h2"></i></a>
+	      <form th:action="@{/logout}" method="post">
+	        <button class="btn btn-primary" data-mdb-ripple-color="dark" type="submit"><i class="bi bi-box-arrow-left h2"></i></button>
+	      </form>
+	    </div>   
+	  </div>
+	</nav>
+
+<main class="container">
+	<div class="input-group justify-content-start">
+		<form class="d-flex pt-5" role="search" th:action="@{/user/listGoals}">
+		 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" th:value="${keyword}" name="keyword" id="keyword" required >
+		 <input class="btn btn-outline-secondary btn-sm" type="button" value="Clear" id="btnClear" onclick="clearSearch()"/>
+		</form>   
+	</div>
+    <table class="table table-striped table-bordered border-primary">
+        <thead class="thead-dark" align="center">    
+            <tr>
+            <th>Start Date</th>   
+            <th>Target End Date</th>                             
+            <th>Status</th>
+            <th>Goal Type</th>
+            <th >End Date</th>
+            <th>Comment</th>
+            <th><a th:href="@{/user/addGoal}"> <i class="bi bi-plus-square h5"></i></a></th>             
+            </tr>
+        </thead>
+       
+        <tbody align="center">
+        	<tr th:each="goal : ${goals}">
+	            <td th:text="${goal.startDate}">Start Date</td>
+	            <td th:text="${goal.targetEndDate}">Target End Date</td>            	
+	            <td th:text="${goal.goalStatus.goalStatusName}">Status</td>
+	            <td th:text="${goal.goalType.goalTypeName}">Goal Type</td>          
+	            <td align="center">
+		            <span th:text="${goal.endDate}">End Date</span>
+		            <span th:if="!${goal.endDate}" >           
+		            <i class="bi bi-alarm text-primary center h5"></i></span>                                   
+				</td>	
+            	<td align="left" th:text="${goal.description}">Comment</td>
+            	<td>
+            		<a th:href="@{/user/editGoal/{id}(id=${goal.id})}"><i class="bi bi-pencil-square h5"></i></a>
+            		<a onclick="return confirm('Are you sure you want to delete this item?');" th:href="@{/user/deleteGoal/{id}(id=${goal.id})}"><i class="bi bi-archive h5"></i></a>
+            	</td>
+        	</tr>
+        </tbody>
+    </table>
+</main>
+</body>
+</html>
+
+
+

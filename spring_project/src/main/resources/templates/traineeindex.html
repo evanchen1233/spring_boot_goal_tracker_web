@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" th:href="@{nav.css}">
+<head>
+<meta charset="UTF-8">
+<title>PondPal</title>
+</head>
+<body id="body">
+
+<div style="width: 60%; margin: auto; margin-top: 2%; min-width: 400px;  border-style: solid; border-color: BLACK; border-width: 2px; background-color: #FDF5DF">
+
+ <div id="header2" align="center" style="text-align: center;">User Homepage</div> 
+
+	<div align="left" style="width: 80%; margin: auto; padding-top: 20px; padding-bottom: 20px;">
+
+<!-- <a id="link" href="/preProcess">Call preProcess</a> -->
+<td><input id="buttons" type="button" value="    Edit    " th:onclick="location.href='/useredit?username=' + [[${user.username}]]"/></td>
+<a id="link" href="/useredit">Edit User</a>
+<br>
+<a id="link" href="/addGoal">Add Goal</a>
+<br>
+<a id="link" href="/listUsers" >List Goals</a>
+</div>
+</div>
+
+</body>
+</html>

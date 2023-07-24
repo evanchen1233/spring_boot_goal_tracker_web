@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<link rel="stylesheet" th:href="@{nav.css}">
+<head>
+<meta charset="UTF-8">
+<title>Register New User</title>
+</head>
+<script type="text/javascript">
+
+
+
+function checkErrors()
+{
+	var messages = document.getElementById("message").innerText;
+	
+	if (messages.trim().length > 0 && messages.charAt(0) != '/')
+		alert(messages);
+	
+}
+
+function showPassword() {
+	  var x = document.getElementById("password");
+	  if (x.type === "password") {
+	    x.type = "text";
+	  } else {
+	    x.type = "password";
+	  }
+}
+
+function returnTo(){
+	
+	var messages = document.getElementById("message").innerText;
+	
+	if (messages.trim().length > 0)
+		location.href=messages;
+	else
+		location.href="/login";
+}
+
+
+</script>	
+<body id="body" onload = checkErrors() >
+
+	<p id="message" hidden=true th:text="${message}" />
+	
+	<form id="register" th:action="@{/addUserObject}" method="POST"  th:object="${user}" style="padding-top: 20px;">
+		<div style="width: 30%; margin: auto; min-width: 400px; border-style: solid; border-color: BLACK; border-width: 2px; background-color: #FDF5DF">
+			
+			 <div id="header" align="center" style="text-align: center;">Register User</div> 
+			 
+			 	<table style="margin: auto; padding-top: 20px; padding-bottom: 20px">
+			
+				<!--  Put in a table to align vertically input and labels -->
+				  <tr>
+					<td align="right">Username :</td>
+					<td align="left"><input type="text" id="username" th:field="*{username}"
+						placeholder="Enter your FDM email" required maxlength=50/></td>
+				</tr>
+				<tr>
+					<td align="right">Password :</td>
+					<td align="left"><input type="password" id="password"
+						th:field="*{password}" placeholder="Enter your password" required maxlength=20/></td>
+				</tr>
+				<tr>
+					<td align="right">First name :</td>
+					<td align="left"><input type="text" id="firstname"
+						th:field="*{firstName}" placeholder="Enter your first name" required maxlength=20/></td>
+				</tr>
+				<tr>
+					<td align="right">Last name : </td>
+					<td align="left"><input type="text" id="lastname"
+						th:field="*{lastName}" placeholder="Enter your family name" required maxlength=40/></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td align="right"><input type="checkbox" onclick="showPassword()" style="float: right">Show Password</td>
+				</tr>
+				
+				
+			</table>
+			
+
+		<!-- 	<div id="buttons">
+			<input type="submit" value="Save" class="submit-btn" style="margin: auto; display: block;" />
+			<input type="button" value="Exit" onclick="location.href='/index'" />		
+			</div> -->
+			 
+			<div id="btnbar" style="width: 100%; margin-top: 10px; text-align: center;">
+				<ul style="margin-top: 0px; margin-bottom: 0px;">
+					<li><input type="submit" value="Save" class="submit-btn"/></li>
+					<li><input type="button" value="Exit" onclick="returnTo()" /></li>
+					<li><input type="reset" value="Reset"></li>
+				</ul>
+			</div>	
+			 
+		</div>
+	</form>
+	
+			 
+
+
+</body>
+</html>

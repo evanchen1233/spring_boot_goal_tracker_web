@@ -1,0 +1,220 @@
+@startuml
+
+/' diagram meta data start
+config=StructureConfiguration;
+{
+  "projectClassification": {
+    "searchMode": "OpenProject", // OpenProject, AllProjects
+    "includedProjects": "",
+    "pathEndKeywords": "*.impl",
+    "isClientPath": "",
+    "isClientName": "",
+    "isTestPath": "",
+    "isTestName": "",
+    "isMappingPath": "",
+    "isMappingName": "",
+    "isDataAccessPath": "",
+    "isDataAccessName": "",
+    "isDataStructurePath": "",
+    "isDataStructureName": "",
+    "isInterfaceStructuresPath": "",
+    "isInterfaceStructuresName": "",
+    "isEntryPointPath": "",
+    "isEntryPointName": "",
+    "treatFinalFieldsAsMandatory": false
+  },
+  "graphRestriction": {
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "removeByInheritance": "", // inheritance/annotation based filtering is done in a second step
+    "removeByAnnotation": "",
+    "removeByClassPackage": "", // cleanup the graph after inheritance/annotation based filtering is done
+    "removeByClassName": "",
+    "cutMappings": false,
+    "cutEnum": true,
+    "cutTests": true,
+    "cutClient": true,
+    "cutDataAccess": false,
+    "cutInterfaceStructures": false,
+    "cutDataStructures": false,
+    "cutGetterAndSetter": true,
+    "cutConstructors": true
+  },
+  "graphTraversal": {
+    "forwardDepth": 6,
+    "backwardDepth": 6,
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "hideMappings": false,
+    "hideDataStructures": false,
+    "hidePrivateMethods": true,
+    "hideInterfaceCalls": true, // indirection: implementation -> interface (is hidden) -> implementation
+    "onlyShowApplicationEntryPoints": false, // root node is included
+    "useMethodCallsForStructureDiagram": "ForwardOnly" // ForwardOnly, BothDirections, No
+  },
+  "details": {
+    "aggregation": "GroupByClass", // ByClass, GroupByClass, None
+    "showClassGenericTypes": true,
+    "showMethods": true,
+    "showMethodParameterNames": true,
+    "showMethodParameterTypes": true,
+    "showMethodReturnType": true,
+    "showPackageLevels": 2,
+    "showDetailedClassStructure": true
+  },
+  "rootClass": "com.fdm.spring.dal.GoalRepository",
+  "extensionCallbackMethod": "" // qualified.class.name#methodName - signature: public static String method(String)
+}
+diagram meta data end '/
+
+
+
+digraph g {
+    rankdir="TB"
+    splines=polyline
+    
+
+'nodes 
+subgraph cluster_101231 { 
+   	label=fdm
+	labeljust=l
+	fillcolor="#ececec"
+	style=filled
+   
+   subgraph cluster_958779028 { 
+   	label=spring
+	labeljust=l
+	fillcolor="#d8d8d8"
+	style=filled
+   
+   AdminController1709836111[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)AdminController</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   context: ApplicationContext [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   goalService: GoalService [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   logger: Logger [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   userService: UserService [1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ listGoals(model: Model, keyword: String, id: String): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ listTrainees(model: Model, keyword: String): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ sumofList(list: List&lt;Integer&gt;): int</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+GoalController1709836111[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)GoalController</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   context: ApplicationContext [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   goalService: GoalService [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   goalStatusService: GoalStatusService [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   goalTypeService: GoalTypeService [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   userService: UserService [1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ addGoal(model: Model): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ addGoalObject(option: String, option2: String, goal: Goal, model: Model, principal: Principal): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ deleteGoal(id: int, model: Model): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ editGoal(id: int, model: Model): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ listGoals(principal: Principal, model: Model): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ updateGoalObject(option2: String, goal: Goal, model: Model, principal: Principal, id: int): String</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+GoalRepository1325642726[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(I)GoalRepository</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ countByGoalStatus(goalStatusName: String): int</TD></TR>
+<TR><TD ALIGN="LEFT" >+ countByGoalType(goalTypeName: String): int</TD></TR>
+<TR><TD ALIGN="LEFT" >+ countByUsernameAndGoalStatus(username: String, goalStatusName: String): int</TD></TR>
+<TR><TD ALIGN="LEFT" >+ countByUsernameAndGoalType(username: String, goalTypeName: String): int</TD></TR>
+<TR><TD ALIGN="LEFT" >+ findByGoalTypeId(id: int): List&lt;Goal&gt;</TD></TR>
+<TR><TD ALIGN="LEFT" >+ findByUsername(username: String): List&lt;Goal&gt;</TD></TR>
+<TR><TD ALIGN="LEFT" >+ search(keyword: String, username: String): List&lt;Goal&gt;</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#F1E5FD"
+];
+
+GoalService608260544[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)GoalService</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >#   goalRepository: GoalRepository [1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ countByGoalStatus(): List&lt;Integer&gt;</TD></TR>
+<TR><TD ALIGN="LEFT" >+ countByGoalType(): List&lt;Integer&gt;</TD></TR>
+<TR><TD ALIGN="LEFT" >+ countByUsernameAndGoalStatus(username: String, goalStatusName: String): int</TD></TR>
+<TR><TD ALIGN="LEFT" >+ countByUsernameAndGoalType(username: String, goalTypeName: String): int</TD></TR>
+<TR><TD ALIGN="LEFT" >+ deleteAllGoals(): int</TD></TR>
+<TR><TD ALIGN="LEFT" >+ deleteGoalById(id: int)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ filteredFindAll(keyword: String, username: String): List&lt;Goal&gt;</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getGoalById(id: int): Goal</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getGoalsByGoalTypeId(id: int): List&lt;Goal&gt;</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getGoalsByUsername(username: String): List&lt;Goal&gt;</TD></TR>
+<TR><TD ALIGN="LEFT" >+ saveGoal(goal: Goal)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ updateGoal(goal: Goal)</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+TraineeController1709836111[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)TraineeController</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   context: ApplicationContext [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   goalService: GoalService [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   goalStatusService: GoalStatusService [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   goalTypeService: GoalTypeService [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   logger: Logger [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   userService: UserService [1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ addGoal(model: Model): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ addGoalObject(option: String, option2: String, goal: Goal, model: Model, principal: Principal): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ deleteGoal(id: int, model: Model): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ editGoal(id: int, model: Model): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ listGoals(principal: Principal, model: Model, keyword: String): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ updateGoalObject(option2: String, goal: Goal, model: Model, principal: Principal, id: int): String</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+} 
+} 
+
+'edges    
+AdminController1709836111 -> GoalService608260544[label="goalService
+[1]"];
+GoalController1709836111 -> GoalService608260544[label="goalService
+[1]"];
+GoalService608260544 -> GoalRepository1325642726[label="goalRepository
+[1]"];
+TraineeController1709836111 -> GoalService608260544[label="goalService
+[1]"];
+    
+}
+@enduml

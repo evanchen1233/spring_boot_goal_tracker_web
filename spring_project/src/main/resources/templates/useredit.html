@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<link rel="stylesheet" th:href="@{nav.css}">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<script>
+function returnTo(){
+	
+	var messages = document.getElementById("message").innerText;
+
+	
+	if (messages.trim().length > 0)
+		location.href=messages;
+	else
+		location.href="/index";
+	
+	
+	
+}
+</script>
+<body id="body">
+	<p id="message" hidden=true th:text="${message}" />
+	<form th:object="${user}" id="register" action="/editUser" method="POST"  style="padding-top: 20px;">
+		<div style="width: 30%; margin: auto; min-width: 400px; border-style: solid; border-color: BLACK; border-width: 2px; background-color: #FDF5DF">
+			
+			 <div id="header" align="center" style="text-align: center;">Edit User</div> 
+			 
+			 	<table style="margin: auto; padding-top: 20px; padding-bottom: 20px">
+				<!--  Put in a table to align vertically input and labels -->
+				<tr>
+					<td align="right">Username :</td>
+					<td align="left"><input type="text" id="username" name="username"
+						required maxlength=20 th:value="*{username}"/></td>
+				</tr>
+				<tr>
+					<td align="right">Password :</td>
+					<td align="left"><input type="password" id="password"
+						name="password" required maxlength=20 th:value="*{password}"/></td>
+				</tr>
+				<tr>
+					<td align="right">First name :</td>
+					<td align="left"><input type="text" id="firstname"
+						name="firstname" required maxlength=20 th:value="*{firstName}"/></td>
+				</tr>
+				<tr>
+					<td align="right">Last name :</td>
+					<td align="left"><input type="text" id="lastname"
+						name="lastname" th:value="*{lastName}" maxlength=40/></td>
+				</tr>
+				
+				
+			</table>
+			
+
+		<!-- 	<div id="buttons">
+			<input type="submit" value="Save" class="submit-btn" style="margin: auto; display: block;" />
+			<input type="button" value="Exit" onclick="location.href='/index'" />		
+			</div> -->
+			 
+			<div id="buttonbar">
+			<table style="margin: auto;">
+				<tr>
+					<td align="right"><input type="submit" value="Save" class="submit-btn"/></td>
+					<!-- <td align="left"><input type="button" value="Exit" onclick="location.href='/index'" /></td> -->
+					<td align="left"><input type="button" value="Exit" onclick="returnTo()" /></td>
+				</tr>
+			</table>	
+		</div>	
+			 
+		</div>
+	</form>
+	
+</body>
+</html>
